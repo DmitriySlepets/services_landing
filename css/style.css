@@ -4,5 +4,8 @@ body{width: 100%;margin: 0 auto;padding: 0;}
 /*общие - конец*/
 
 /*шапка - начало*/
-#header .info_top{height:50px;background: #022149;}
+#header .info_panel{height:50px;background: #022149; display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap;}
+#header .info_left{-webkit-box-flex: 0; -ms-flex: 0 0 51.3%; flex: 0 0 51.3%; max-width: 51.3%;}
+#header .info_right{-webkit-box-flex: 0; -ms-flex: 0 0 48.7%; flex: 0 0 48.7%; max-width: 48.7%;}
+#header .banner{height: 700px;background: #014369;}
 /*шапка - конец*/

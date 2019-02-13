@@ -21,6 +21,7 @@
                     </div>
                 </div>
                 <div class="banner"></div>
+                <div class="tizers"></div>
             </div>
         </header>
         <div id="content">

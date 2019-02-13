@@ -1,5 +1,6 @@
 /*общие - начало*/
 body{width: 100%;margin: 0 auto;padding: 0;}
+@font-face { font-family: 'Roboto';  src: local('Roboto Thin'), local('Roboto-Thin'), url('../fonts/Robotothin.woff2') format('woff2'), url('../fonts/Robotothin.woff') format('woff'), url('../fonts/Robotothin.ttf') format('truetype');  font-weight: 100;  font-style: normal; }
 .wrapper_inner {max-width: 1440px;  margin: 0 auto;  background: #fff;}
 /*общие - конец*/
 
@@ -8,4 +9,5 @@ body{width: 100%;margin: 0 auto;padding: 0;}
 #header .info_left{-webkit-box-flex: 0; -ms-flex: 0 0 51.3%; flex: 0 0 51.3%; max-width: 51.3%;}
 #header .info_right{-webkit-box-flex: 0; -ms-flex: 0 0 48.7%; flex: 0 0 48.7%; max-width: 48.7%;}
 #header .banner{height: 700px;background: #014369;}
+#header .tizers{height: 274px;background: rgba(102, 102, 102, 0.1);}
 /*шапка - конец*/
